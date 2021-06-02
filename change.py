@@ -1,3 +1,4 @@
+# -*- coding:utf-8 -*-
 import sys 
 from PIL import Image
 
@@ -127,7 +128,7 @@ def main():
     # 调用 Image 的 open 方法获取原图片对象
     image = Image.open(image_file)
     # 需要隐藏到图片中的字符串
-    str_to_hide = '你好世界 Hello World!'
+    str_to_hide = 'Hello World!'
     # 调用此函数生成包含字符串数据的新图片对象
     new_image = encode_data_in_image(image, str_to_hide)
     # 将新图片对象保存到新文件里
