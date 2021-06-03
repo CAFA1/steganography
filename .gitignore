@@ -104,3 +104,7 @@ venv.bak/
 .mypy_cache/
 haha.png
 haha1.png
+test/
+test.zip
+.idea/
+test1.zip
